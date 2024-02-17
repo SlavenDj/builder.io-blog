@@ -5,7 +5,7 @@
 import { builder } from '@builder.io/sdk';
 import { BuilderComponent, useIsPreviewing } from '@builder.io/react';
 import DefaultErrorPage from 'next/error';
-
+import '/builder-registry';
 // Replace with your Public API Key
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY ?? '');
 
